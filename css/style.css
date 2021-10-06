@@ -1,5 +1,74 @@
+/* ***** commons ****** */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ***** header ***** */
+header {
+    height: 80px;
+    line-height: 80px;
+    background-color: #255ee9;
+}
+
+#logo, nav, #accedi {
+    float: left;
+}
+
+nav {
+    width: 50%;
+    text-align: center;
+}
+
+#logo, nav {
+    float: left;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+}
+
+#logo, .accedi{
+    width: 25%;
+} 
+
+
+
+
+
+
+/* ***** debug ***** */
+.debug header {
+    background-color: blue;
+}
+
+.container {
+    background-color: pink;
 }
