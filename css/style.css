@@ -252,7 +252,53 @@ nav ul li a:hover {
 .section4 h3 {
     font-size: 24px;
     margin: 50px 0;
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    line-height: 50px;
 }
+
+
+/* ****** footer ****** */
+footer {
+    background-color: rgb(37, 37, 37);
+    height: 600px;
+    margin-top: 70px;
+}
+
+.footer-top {
+    border-bottom: 2px solid #5e87f9;
+}
+
+
+.col1 h3 {
+    color: #5e87f9;
+    font-size: 24px;
+}
+.col1 img {
+    height: 15px;
+}
+ .col1 .lingua {
+     display: inline-block;
+     color: white;
+ }
+
+ .col1, .col2, .col3, .col4, .col5 {
+    float: left;
+    margin-left: 50px;
+    width: calc(100% / 5 -50px);
+ }
+
+.col1 ul, .col2 ul, .col3 ul, .col4 ul, .col5 ul {
+    list-style: none;
+    color: white;
+    line-height: 1.6;
+
+ }
+
+.first {
+    color: #5e87f9;
+}
+
 
 
 
