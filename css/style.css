@@ -64,7 +64,7 @@ header {
     float: left;
 }
 
-nav {
+header nav {
     width: 50%;
     text-align: center;
 }
@@ -73,17 +73,17 @@ nav {
     vertical-align: middle;
 }
 
-nav ul li {
+header nav ul li {
     display: inline-block;
     list-style: none;
 }
 
-nav a {
+header nav a {
     color: white;
     margin: 0 10px;
 }
 
-nav ul li a:hover {
+header nav ul li a:hover {
     text-decoration: underline white;
 }
 
@@ -247,6 +247,8 @@ nav ul li a:hover {
 .section4-text p {
     line-height: 1.6;
     font-size: 18px;
+    width:70%;
+    margin: 0 auto;
 }
 
 .section4 h3 {
@@ -254,6 +256,7 @@ nav ul li a:hover {
     margin: 50px 0;
     background-image: url(../img/stars.svg);
     background-position: center;
+    background-repeat: no-repeat;
     line-height: 50px;
 }
 
@@ -261,44 +264,78 @@ nav ul li a:hover {
 /* ****** footer ****** */
 footer {
     background-color: rgb(37, 37, 37);
-    height: 600px;
     margin-top: 70px;
 }
 
 .footer-top {
-    border-bottom: 2px solid #5e87f9;
+    border-bottom: 1px solid #5e87f9;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
-
-.col1 h3 {
-    color: #5e87f9;
-    font-size: 24px;
+.footer-top nav {
+    width: calc(80% - 50px);
 }
-.col1 img {
-    height: 15px;
-}
- .col1 .lingua {
-     display: inline-block;
-     color: white;
- }
 
- .col1, .col2, .col3, .col4, .col5 {
+.first-col-footer {
+    width: 20%;
     float: left;
-    margin-left: 50px;
-    width: calc(100% / 5 -50px);
- }
+    margin-right: 50px;
+}
 
-.col1 ul, .col2 ul, .col3 ul, .col4 ul, .col5 ul {
+.first-col-footer h3 {
+    color: #5e87f9;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.first-col-footer img {
+    height: 15px;
+    vertical-align: middle;
+}
+
+.first-col-footer .lingua {
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.link-social {
+    margin-top: 20px;
+}
+
+.link-social a {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+}
+
+.col-footer {
+    float: left;
+    margin-right: 40px;
+    width: calc(100% / 4 - 40px);
+}
+
+.col-footer ul {
     list-style: none;
     color: white;
     line-height: 1.6;
+}
 
- }
-
-.first {
+.col-footer h4 {
     color: #5e87f9;
 }
 
+.footer-bottom {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.footer-bottom .button {
+    display: inline-block;
+    float: right;
+}
 
 
 
@@ -309,4 +346,8 @@ footer {
 
 /* .container {
     background-color: pink;
+} */
+
+/* footer {
+    height: 600px;
 } */
